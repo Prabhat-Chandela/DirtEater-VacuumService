@@ -2,7 +2,7 @@ import React from 'react'
 
 function HeroVideoCard() {
   return (
-    <div className='w-full h-full relative rounded-lg overflow-hidden'>
+    <div className='w-full max-h-[500px] relative rounded-lg overflow-hidden'>
 
         <div className='w-full'>
         <video className='w-full max-h-full object-center' src="DE-heroVideo.mp4" autoPlay muted loop preload='metadata'></video>

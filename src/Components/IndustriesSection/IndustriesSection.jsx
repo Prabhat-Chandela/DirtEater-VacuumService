@@ -1,6 +1,6 @@
 import React from 'react';
 import { IndustriesCard } from '../index';
-import { BrickWall } from 'lucide-react';
+import { BrickWall,MountainSnow,Layers3,MonitorSmartphone,Waves,Scroll,Building2,HardHat,Boxes } from 'lucide-react';
 
 function IndustriesSection() {
 
@@ -8,42 +8,42 @@ function IndustriesSection() {
         {
             industryName: "ASBESTOS",
             industryDetail: "CLASS H Vacuum, H14 HEPA Filter, Reduce Airborne Dust, Less Cleaning Time, Easy to Decontaminate, Strong Build, Heavy Duty, User Friendly.",
-            industryIcon: "Asbestos.webp"
+            industryIcon: <Waves />
         },
         {
             industryName: "FIBERGLASS / COMPOSITES",
             industryDetail: "Hazardous Material, Dusty Operational Processes, Damage due to Cross Contamination, Difficult Waste Management, Cyclonic HEPA Vacuum, Plastic Bag to Collect the Dust.",
-            industryIcon: "FIBERGLASS-or-COMPOSITES.webp"
+            industryIcon: <Layers3 />
         },
         {
             industryName: "CONCRETE",
             industryDetail: "Best Suction In Its Class, Cyclonic Vacuum, Plastic Bag To Collect the Dust, 10+ Hour Non-Stop Operation, Strong Built, 10M to 25M Antistatic Hose.",
-            industryIcon: "Conrete.webp"
+            industryIcon: <HardHat />
         },
         {
             industryName: "CONSTRUCTION",
             industryDetail: "Clean Working Operations, Handles Multiple Types Of Dust At the Same Time, Wet & Dry, Up-to 25M Long Hose, Plastic Bag or Bag less, Super Strong Build, Easy To Move And Store.",
-            industryIcon: "Construction.webp"
+            industryIcon: <Building2 />
         },
         {
             industryName: "ROCKWALL / GIB",
             industryDetail: "Reduces Airborne Dust, Shorten the cleaning time, Effective Waste Management, Longer Operational Cycle (10+ hours), H14 HEPA Filter, Long and Flexible Anti-static Hose.",
-            industryIcon: "Rockwall-or-Gib.webp"
+            industryIcon: <MountainSnow />
         },
         {
             industryName: "HIRE COMPANIES",
             industryDetail: "Strong Cyclonic HEPA industrial Vacuums that comply, Proven Product for Hire Companies, No Down Time, Long Life, No Maintenance, Easy to Clean, Ready in Minute, Reliable Solution.",
-            industryIcon: "HIRE-COMPANIES.webp"
+            industryIcon: <MonitorSmartphone />
         },
         {
             industryName: "MDF / WOOD",
             industryDetail: "Light Weight Dust, Huge Amount of Dust, Static Charge While Vacuuming, Hazardous Dust from Treated Timber, Constant Strong Suction, Long Hose, Cyclonic Vacuum, Delay in operation due to dust.",
-            industryIcon: "MDF-or-Wood.webp"
+            industryIcon: <Boxes />
         },
         {
             industryName: "PLASTIC",
             industryDetail: "irborne Dust from Grinding, Hazardous Dust from Paint Scrapping, Wet and Dry Dust, Cyclonic Wet and Dry HEPA Vacuum, Long hose up to 25M, Easy Waste Management, Vacuum that works.",
-            industryIcon: "PLASTIC.webp"
+            industryIcon: <Scroll />
         },
 
     ]
@@ -57,7 +57,7 @@ function IndustriesSection() {
 
             <div className='flex flex-wrap items-center justify-between gap-5 lg:gap-3'>
                 {industries.map((industry) => (
-                    <div key={industry.industryName} className='w-full sm:w-[48%] lg:w-[24%] h-[42vh]'>
+                    <div key={industry.industryName} className='w-full sm:w-[48%] lg:w-[24%] '>
                         <IndustriesCard {...industry} />
                     </div>
                 ))}

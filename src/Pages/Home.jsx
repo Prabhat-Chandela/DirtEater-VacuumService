@@ -3,9 +3,9 @@ import { IndustriesSection, HeroSection } from '../Components/index';
 
 function Home() {
   return (
-    <div className='w-full mt-[15vh]'>
+    <div className='w-full mt-[90px] lg:mt-[110px]'>
 
-      <section className='w-full h-fit sm:h-[90vh] overflow-hidden bg-white'>
+      <section className='w-full h-fit lg:h-fit overflow-hidden'>
         <HeroSection />
       </section>
 
