@@ -1,4 +1,4 @@
-import { Header } from "./Components";
+import { Header,Footer } from "./Components";
 import {Outlet} from "react-router-dom";
 
 function App() {
@@ -10,6 +10,7 @@ function App() {
     <main className="w-full flex-1">
     <Outlet/>
     </main>
+    <Footer/>
 
     </div>
   )

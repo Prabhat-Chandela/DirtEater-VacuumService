@@ -6,6 +6,7 @@ import HeroVideoCard from './HeroVideoCard/HeroVideoCard';
 import Counter from './Counter/Counter';
 import VacuumCard from './VacuumCard/VacuumCard';
 import VacuumsSection from './VacummsSection/VacuumsSection';
+import Footer from './Footer/Footer';
 
 export {
     Header,
@@ -16,4 +17,5 @@ export {
     Counter,
     VacuumCard,
     VacuumsSection,
+    Footer,
 }
