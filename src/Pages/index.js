@@ -3,6 +3,7 @@ import Blogs from './Blogs';
 import ContactUs from './ContactUs';
 import Home from './Home';
 import VacuumRange from './VacuumRange';
+import Distributor from './Distributor';
 
 export{
     About,
@@ -10,4 +11,5 @@ export{
     ContactUs,
     Home,
     VacuumRange,
+    Distributor,
 }

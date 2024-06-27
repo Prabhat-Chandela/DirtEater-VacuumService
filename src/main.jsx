@@ -2,7 +2,7 @@ import React,{useEffect} from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
-import {Home,About,Blogs,VacuumRange,ContactUs} from './Pages/index.js'
+import {Home,About,Blogs,VacuumRange,ContactUs, Distributor} from './Pages/index.js'
 import { RouterProvider, createBrowserRouter, useLocation } from "react-router-dom";
 
 const ScrollToTop = () => {
@@ -54,6 +54,13 @@ const router = createBrowserRouter([
         path: "/vacuums",
         element: <>
           <VacuumRange />
+          <ScrollToTop />
+        </>
+      },
+      {
+        path: "/become-distributor",
+        element: <>
+          <Distributor/>
           <ScrollToTop />
         </>
       },

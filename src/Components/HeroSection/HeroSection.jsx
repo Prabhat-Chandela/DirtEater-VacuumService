@@ -1,9 +1,12 @@
 import React from 'react'
 import { HeroVideoCard } from '../index';
 import { Handshake, UsersRound, MousePointerClick } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 
 
 function HeroSection() {
+const navigate = useNavigate()
+
   return (
     <div className='w-full h-full rounded-lg grid p-2  gap-3 lg:grid-cols-6 lg:grid-rows-6'>
 
@@ -15,7 +18,7 @@ function HeroSection() {
 
         <h3 className='text-lg lg:text-xl font-bold border-b-2 border-b-current pb-2 pr-6 w-fit flex items-center  justify-center gap-2 uppercase'><span><UsersRound /></span>Become Our Partner</h3>
         <p className='text-md font-medium'>Become a distributor for the best industrial vacuum cleaner equipment selling brand in the industry!</p>
-        <button className='text-xs border-2 font-medium border-current w-fit py-2 px-3 rounded-lg flex items-center  justify-center gap-2 uppercase hover:border-blue-950  hover:text-blue-950 hover:scale-105  transition-all ease-in duration-200'><span><Handshake /></span>join hands</button>
+        <button onClick={()=>(navigate("/become-distributor"))} className='text-xs border-2 font-medium border-current w-fit py-2 px-3 rounded-lg flex items-center  justify-center gap-2 uppercase hover:border-blue-950  hover:text-blue-950 hover:scale-105  transition-all ease-in duration-200'><span><Handshake /></span>join hands</button>
 
       </div>
 
