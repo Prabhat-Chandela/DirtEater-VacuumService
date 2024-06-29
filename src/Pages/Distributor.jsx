@@ -1,4 +1,5 @@
 import React from 'react'
+import {Queryform} from '../Components/index';
 
 function Distributor() {
     return (
@@ -14,17 +15,22 @@ function Distributor() {
                         <p className='font-medium text-xs sm:text-sm text-blue-950'>If you are ambitious and can add value to our expanding team, we would like to hear from you. Please fill out the form below and a representative will contact you.</p>
                     </div>
 
-                    <div className='grid gap-5 place-items-center'>
+                    <div className='h-[300px] grid grid-cols-12 gap-1 grid-rows-6'>
 
-                        <div className='w-fit overflow-hidden rounded-lg lg:hidden'>
-                            <img src="DE-distributor.webp" alt="distributor-page-image" width={700} height={500} />
+                        <div className='h-full overflow-hidden rounded-lg col-span-6 sm:col-span-4 row-span-3 sm:row-span-6'>
+                            <img className='w-full h-full object-cover' src="DE-distributor.webp" alt="distributor-page-image"/>
                         </div>
-                        <div className='w-fit overflow-hidden rounded-lg lg:hidden'>
-                            <img src="DE-distributor-2.webp" alt="distributor-page-image" width={700} height={500} />
+                        <div className='h-full overflow-hidden rounded-lg col-span-6 sm:col-span-2 row-span-3 sm:row-span-6 '>
+                            <img className='w-full h-full object-cover' src="home-product-1.webp" alt="distributor-page-image"/>
                         </div>
-                        <div className='w-fit overflow-hidden rounded-lg lg:hidden'>
-                            <img src="DE-distributor-3.webp" alt="distributor-page-image" width={700} height={500} />
+                        <div className=' overflow-hidden rounded-lg col-span-6 sm:col-span-2 row-span-3 sm:row-span-6 '>
+                            <img className='w-full h-full object-cover' src="home-product-2.webp" alt="distributor-page-image"/>
                         </div>
+                        <div className=' overflow-hidden rounded-lg col-span-6 sm:col-span-4  row-span-3 sm:row-span-6'>
+                            <img className='w-full h-full object-cover' src="DE-distributor-2.webp" alt="distributor-page-image"/>
+                        </div>
+                        
+                       
 
 
                     </div>
@@ -34,8 +40,14 @@ function Distributor() {
 
             </section>
 
-            <section className='bg-white rounded-lg w-full p-3'>
+            <section className='bg-white rounded-lg w-full lg:p-3 flex flex-col gap-7'>
+                <h3 className='text-[#017BCC] uppercase font-bold ml-3 border-l-[6px] border-l-current pl-4 text-2xl'>Share Your Details below :</h3>
 
+                <p className='font-medium text-blue-950 text-xs sm:text-sm px-3'>Are you interested in joining the leading brand in industrial vacuum solutions? We invite you to become a distributor for our top-of-the-line industrial vacuums. Simply fill out the form below with all the required information, and we will be delighted to welcome you to our team.</p>
+
+                <div className='bg-[#030f27] rounded-lg w-full '>
+                        <Queryform/>
+                </div>
             </section>
         </div>
     )

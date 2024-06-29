@@ -7,6 +7,8 @@ import Counter from './Counter/Counter';
 import VacuumCard from './VacuumCard/VacuumCard';
 import VacuumsSection from './VacummsSection/VacuumsSection';
 import Footer from './Footer/Footer';
+import Inputbox from './Inputbox/Inputbox';
+import Queryform from './Queryform/Queryform';
 
 export {
     Header,
@@ -18,4 +20,6 @@ export {
     VacuumCard,
     VacuumsSection,
     Footer,
+    Inputbox,
+    Queryform,
 }

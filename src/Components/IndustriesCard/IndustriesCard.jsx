@@ -22,7 +22,7 @@ function IndustriesCard({
 
                 <p className='text-sm'>{industryDetail}</p>
 
-                <button className='w-fit px-3 text-sm py-2 border-2 border-current rounded-lg'>Explore Industry</button>
+                <button className='w-fit px-3 text-sm py-2 border-2 border-current rounded-lg hover:scale-105 hover:shadow-md transition-all ease-in duration-200'>Explore Industry</button>
             </div>
 
         </div>

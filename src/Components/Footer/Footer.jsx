@@ -1,9 +1,9 @@
 import React from 'react';
-import { NotepadText, SquareUser, Phone, MapPin, BookUser, Mail, Instagram, Youtube, Linkedin, Facebook, SquareGanttChart, BrickWall, MousePointerClick, Bus, ShoppingBasket } from 'lucide-react';
+import { NotepadText, SquareUser, Phone, MapPin, BookUser, Mail, Instagram, Youtube, Linkedin, Facebook, SquareGanttChart, BrickWall, MousePointerClick, ChevronsRight, Box } from 'lucide-react';
 
 function Footer() {
     return (
-        <div className='w-full flex flex-col gap-12 lg:gap-16 bg-blue-950 p-5 pt-10 mt-5'>
+        <div className='w-full flex flex-col gap-12 lg:gap-16 bg-[#030f27] p-5 pt-10 mt-5'>
 
             <div className='w-full flex flex-col gap-9 lg:gap-0 lg:flex-row lg:justify-between '>
 
@@ -14,7 +14,7 @@ function Footer() {
                 </div>
 
                 <div className='lg:w-[45%] flex flex-col gap-7 lg:gap-0  lg:justify-between lg:h-[280px]'>
-                    <h3 className='font-bold text-xl uppercase flex items-center gap-2 border-b-2 pb-2'> <span><SquareUser /></span>Get In Touch With Us</h3>
+                    <h3 className='font-bold text-xl text-[#017BCC] uppercase flex items-center gap-2 border-b-2 border-b-current pb-2'> <span><SquareUser /></span>Get In Touch With Us</h3>
 
                     <div className='flex flex-col gap-9'>
 
@@ -47,28 +47,28 @@ function Footer() {
             <div className='w-full flex flex-col lg:flex-row gap-9 lg:gap-0 lg:justify-between'>
 
                 <div className='lg:w-[45%] flex flex-col gap-7 '>
-                    <h3 className='font-bold text-xl uppercase flex items-center gap-2 border-b-2 pb-2'> <span><BrickWall /></span>Industries We serve</h3>
+                    <h3 className='font-bold text-xl text-[#017BCC] uppercase flex items-center gap-2 border-b-2 border-b-current pb-2'> <span><BrickWall /></span>Industries We serve</h3>
                     <ul className='flex flex-col sm:flex-row flex-wrap gap-7'>
-                        <li className='cursor-pointer flex items-center gap-2 text-white/70 hover:text-[#017BCC] text-xs font-semibold hover:translate-x-3 transition-all ease-in duration-200'><span><Bus /></span>ASBESTOS</li>
-                        <li className='cursor-pointer flex items-center gap-2 text-white/70 hover:text-[#017BCC] text-xs font-semibold hover:translate-x-3 transition-all ease-in duration-200'><span><Bus /></span>FIBERGLASS / COMPOSITES</li>
-                        <li className='cursor-pointer flex items-center gap-2 text-white/70 hover:text-[#017BCC] text-xs font-semibold hover:translate-x-3 transition-all ease-in duration-200'><span><Bus /></span>CONCRETE</li>
-                        <li className='cursor-pointer flex items-center gap-2 text-white/70 hover:text-[#017BCC] text-xs font-semibold hover:translate-x-3 transition-all ease-in duration-200'><span><Bus /></span>CONSTRUCTION</li>
-                        <li className='cursor-pointer flex items-center gap-2 text-white/70 hover:text-[#017BCC] text-xs font-semibold hover:translate-x-3 transition-all ease-in duration-200'><span><Bus /></span>ROCKWALL / GIB</li>
-                        <li className='cursor-pointer flex items-center gap-2 text-white/70 hover:text-[#017BCC] text-xs font-semibold hover:translate-x-3 transition-all ease-in duration-200'><span><Bus /></span>HIRE COMPANIES</li>
-                        <li className='cursor-pointer flex items-center gap-2 text-white/70 hover:text-[#017BCC] text-xs font-semibold hover:translate-x-3 transition-all ease-in duration-200'><span><Bus /></span>MDF / WOOD</li>
-                        <li className='cursor-pointer flex items-center gap-2 text-white/70 hover:text-[#017BCC] text-xs font-semibold hover:translate-x-3 transition-all ease-in duration-200'><span><Bus /></span>PLASTIC</li>
+                        <li className='cursor-pointer flex items-center gap-2 text-white/70 hover:text-[#017BCC] text-xs font-semibold hover:translate-x-3 transition-all ease-in duration-200'><span><ChevronsRight /></span>ASBESTOS</li>
+                        <li className='cursor-pointer flex items-center gap-2 text-white/70 hover:text-[#017BCC] text-xs font-semibold hover:translate-x-3 transition-all ease-in duration-200'><span><ChevronsRight /></span>FIBERGLASS / COMPOSITES</li>
+                        <li className='cursor-pointer flex items-center gap-2 text-white/70 hover:text-[#017BCC] text-xs font-semibold hover:translate-x-3 transition-all ease-in duration-200'><span><ChevronsRight /></span>CONCRETE</li>
+                        <li className='cursor-pointer flex items-center gap-2 text-white/70 hover:text-[#017BCC] text-xs font-semibold hover:translate-x-3 transition-all ease-in duration-200'><span><ChevronsRight /></span>CONSTRUCTION</li>
+                        <li className='cursor-pointer flex items-center gap-2 text-white/70 hover:text-[#017BCC] text-xs font-semibold hover:translate-x-3 transition-all ease-in duration-200'><span><ChevronsRight /></span>ROCKWALL / GIB</li>
+                        <li className='cursor-pointer flex items-center gap-2 text-white/70 hover:text-[#017BCC] text-xs font-semibold hover:translate-x-3 transition-all ease-in duration-200'><span><ChevronsRight /></span>HIRE COMPANIES</li>
+                        <li className='cursor-pointer flex items-center gap-2 text-white/70 hover:text-[#017BCC] text-xs font-semibold hover:translate-x-3 transition-all ease-in duration-200'><span><ChevronsRight /></span>MDF / WOOD</li>
+                        <li className='cursor-pointer flex items-center gap-2 text-white/70 hover:text-[#017BCC] text-xs font-semibold hover:translate-x-3 transition-all ease-in duration-200'><span><ChevronsRight /></span>PLASTIC</li>
                     </ul>
                 </div>
 
                 <div className='lg:w-[45%] flex flex-col gap-7 '>
-                    <h3 className='font-bold text-xl uppercase flex items-center gap-2 border-b-2 pb-2'> <span><SquareGanttChart /></span>Our Vacuum range</h3>
+                    <h3 className='font-bold text-xl text-[#017BCC] uppercase flex items-center gap-2 border-b-2 border-b-current pb-2'> <span><SquareGanttChart /></span>Our Vacuum range</h3>
                     <ul className='flex flex-col sm:flex-row flex-wrap gap-7'>
-                        <li className='cursor-pointer flex items-center gap-2 text-white/70 hover:text-[#017BCC] text-xs font-semibold hover:translate-x-3 transition-all ease-in duration-200'><span><ShoppingBasket /></span>Dirt Eater</li>
-                        <li className='cursor-pointer flex items-center gap-2 text-white/70 hover:text-[#017BCC] text-xs font-semibold hover:translate-x-3 transition-all ease-in duration-200'><span><ShoppingBasket /></span>Dirt Eater Jr</li>
-                        <li className='cursor-pointer flex items-center gap-2 text-white/70 hover:text-[#017BCC] text-xs font-semibold hover:translate-x-3 transition-all ease-in duration-200'><span><ShoppingBasket /></span>Dirt Eater Protector</li>
-                        <li className='cursor-pointer flex items-center gap-2 text-white/70 hover:text-[#017BCC] text-xs font-semibold hover:translate-x-3 transition-all ease-in duration-200'><span><ShoppingBasket /></span>
+                        <li className='cursor-pointer flex items-center gap-2 text-white/70 hover:text-[#017BCC] text-xs font-semibold hover:translate-x-3 transition-all ease-in duration-200'><span><Box /></span>Dirt Eater</li>
+                        <li className='cursor-pointer flex items-center gap-2 text-white/70 hover:text-[#017BCC] text-xs font-semibold hover:translate-x-3 transition-all ease-in duration-200'><span><Box /></span>Dirt Eater Jr</li>
+                        <li className='cursor-pointer flex items-center gap-2 text-white/70 hover:text-[#017BCC] text-xs font-semibold hover:translate-x-3 transition-all ease-in duration-200'><span><Box /></span>Dirt Eater Protector</li>
+                        <li className='cursor-pointer flex items-center gap-2 text-white/70 hover:text-[#017BCC] text-xs font-semibold hover:translate-x-3 transition-all ease-in duration-200'><span><Box /></span>
                             Dirt Eater Bigboss</li>
-                        <li className='cursor-pointer flex items-center gap-2 text-white/70 hover:text-[#017BCC] text-xs font-semibold hover:translate-x-3 transition-all ease-in duration-200'><span><ShoppingBasket /></span>Customized Vacuums</li>
+                        <li className='cursor-pointer flex items-center gap-2 text-white/70 hover:text-[#017BCC] text-xs font-semibold hover:translate-x-3 transition-all ease-in duration-200'><span><Box /></span>Customized Vacuums</li>
                     </ul>
                 </div>
 

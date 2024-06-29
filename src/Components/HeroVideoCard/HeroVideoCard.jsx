@@ -17,15 +17,15 @@ function HeroVideoCard() {
           <p className='font-semibold text-xs sm:text-sm'>
             Connect with us through our social channels to learn more about how we can serve you and create a significant impact in your industry. Stay updated with our latest offerings, insights, and success stories by following us.</p>
           <div className='flex items-center gap-5 sm:gap-9 flex-wrap '>
-            <li className='cursor-pointer text-white flex items-center justify-center bg-blue-950 rounded-full p-3 hover:bg-[#017BCC] hover:scale-110 transition-all ease-in duration-200'><Facebook size={25} /></li>
-            <li className='cursor-pointer text-white flex items-center justify-center bg-blue-950 rounded-full p-3 hover:bg-[#017BCC] hover:scale-110 transition-all ease-in duration-200'><Linkedin size={25} /></li>
-            <li className='cursor-pointer text-white flex items-center justify-center bg-blue-950 rounded-full p-3 hover:bg-[#017BCC] hover:scale-110 transition-all ease-in duration-200'><Youtube size={25} /></li>
-            <li className='cursor-pointer text-white flex items-center justify-center bg-blue-950 rounded-full p-3 hover:bg-[#017BCC] hover:scale-110 transition-all ease-in duration-200'><Instagram size={25} /></li>
+            <li className='cursor-pointer text-[#017BCC] flex items-center justify-center  rounded-full p-3 bg-white hover:bg-[#030f27] hover:scale-110 transition-all ease-in duration-200'><Facebook size={25} /></li>
+            <li className='cursor-pointer text-[#017BCC] flex items-center justify-center  rounded-full p-3 bg-white hover:bg-[#030f27] hover:scale-110 transition-all ease-in duration-200'><Linkedin size={25} /></li>
+            <li className='cursor-pointer text-[#017BCC] flex items-center justify-center  rounded-full p-3 bg-white hover:bg-[#030f27] hover:scale-110 transition-all ease-in duration-200'><Youtube size={25} /></li>
+            <li className='cursor-pointer text-[#017BCC] flex items-center justify-center  rounded-full p-3 bg-white hover:bg-[#030f27] hover:scale-110 transition-all ease-in duration-200'><Instagram size={25} /></li>
           </div>
 
         </div>
 
-        <button className='text-xs font-medium w-fit py-2 px-3 rounded-lg flex items-center  justify-center gap-2 uppercase bg-blue-950  hover:bg-[#017BCC] hover:scale-105  transition-all ease-in duration-200'><span><Eye /></span>Watch more videos</button>
+        <button className='text-xs  text-white font-medium w-fit py-2 px-3 rounded-lg flex items-center  justify-center gap-2 uppercase bg-[#030f27] hover:scale-105 hover:text-[#017BCC] hover:border hover:border-[#017BCC]  transition-all ease-in duration-200'><span><Eye /></span>Watch more videos</button>
 
       </div>
 
