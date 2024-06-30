@@ -2,7 +2,7 @@ import React from 'react';
 import { Inputbox } from '../index';
 import { MousePointerClick } from 'lucide-react';
 
-function Queryform() {
+function Distributorform() {
     return (
         <form className="flex flex-col lg:p-3">
             <div className="w-full p-3 flex flex-col gap-7">
@@ -94,4 +94,4 @@ function Queryform() {
     )
 }
 
-export default Queryform
+export default Distributorform

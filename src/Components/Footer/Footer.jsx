@@ -31,12 +31,12 @@ function Footer() {
                     </div>
 
                     <div className='w-full flex flex-wrap justify-between sm:justify-normal gap-7'>
-                        <div className='flex items-center gap-3 sm:gap-5 flex-wrap sm:w-1/2'>
+                        <ul className='flex items-center gap-3 sm:gap-5 flex-wrap sm:w-1/2'>
                             <li className='cursor-pointer text-blue-950 flex items-center justify-center bg-white rounded-full p-2 hover:text-[#017BCC] hover:scale-110 transition-all ease-in duration-200'><Facebook size={20} /></li>
                             <li className='cursor-pointer text-blue-950 flex items-center justify-center bg-white rounded-full p-2 hover:text-[#017BCC] hover:scale-110 transition-all ease-in duration-200'><Linkedin size={20} /></li>
                             <li className='cursor-pointer text-blue-950 flex items-center justify-center bg-white rounded-full p-2 hover:text-[#017BCC] hover:scale-110 transition-all ease-in duration-200'><Youtube size={20} /></li>
                             <li className='cursor-pointer text-blue-950 flex items-center justify-center bg-white rounded-full p-2 hover:text-[#017BCC] hover:scale-110 transition-all ease-in duration-200'><Instagram size={20} /></li>
-                        </div>
+                        </ul>
                         <button className='w-fit px-3 py-2 bg-white rounded-lg text-blue-950 text-sm font-semibold flex items-center gap-2 hover:bg-[#017BCC] hover:text-white hover:scale-105 transition-all ease-in duration-200'><span><MousePointerClick /></span>Ping Us Here</button>
                     </div>
 

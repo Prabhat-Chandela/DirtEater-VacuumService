@@ -2,7 +2,7 @@ import React,{useEffect} from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
-import {Home,About,Blogs,VacuumRange,ContactUs, Distributor} from './Pages/index.js'
+import {Home,About,Blogs,VacuumRange,ContactUs, Distributor,Dirteater,DirteaterJr,DirteaterBigboss,DirteaterProtector} from './Pages/index.js'
 import { RouterProvider, createBrowserRouter, useLocation } from "react-router-dom";
 
 const ScrollToTop = () => {
@@ -64,6 +64,35 @@ const router = createBrowserRouter([
           <ScrollToTop />
         </>
       },
+      {
+        path: "dirteater-jr",
+        element: <>
+          <DirteaterJr/>
+          <ScrollToTop />
+        </>
+      },
+      {
+        path: "dirteater",
+        element: <>
+          <Dirteater/>
+          <ScrollToTop />
+        </>
+      },
+      {
+        path: "dirteater-protector",
+        element: <>
+          <DirteaterProtector/>
+          <ScrollToTop />
+        </>
+      },
+      {
+        path: "dirteater-bigboss",
+        element: <>
+          <DirteaterBigboss/>
+          <ScrollToTop />
+        </>
+      },
+  
     
     ]
   }

@@ -8,7 +8,8 @@ import VacuumCard from './VacuumCard/VacuumCard';
 import VacuumsSection from './VacummsSection/VacuumsSection';
 import Footer from './Footer/Footer';
 import Inputbox from './Inputbox/Inputbox';
-import Queryform from './Queryform/Queryform';
+import Distributorform from './Distributorform/Distributorform';
+import Contactform from './Contactform/Contactform';
 
 export {
     Header,
@@ -21,5 +22,6 @@ export {
     VacuumsSection,
     Footer,
     Inputbox,
-    Queryform,
+    Distributorform,
+    Contactform,
 }

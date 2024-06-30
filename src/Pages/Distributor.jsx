@@ -1,5 +1,5 @@
 import React from 'react'
-import {Queryform} from '../Components/index';
+import {Distributorform} from '../Components/index';
 
 function Distributor() {
     return (
@@ -46,7 +46,7 @@ function Distributor() {
                 <p className='font-medium text-blue-950 text-xs sm:text-sm px-3'>Are you interested in joining the leading brand in industrial vacuum solutions? We invite you to become a distributor for our top-of-the-line industrial vacuums. Simply fill out the form below with all the required information, and we will be delighted to welcome you to our team.</p>
 
                 <div className='bg-[#030f27] rounded-lg w-full '>
-                        <Queryform/>
+                        <Distributorform/>
                 </div>
             </section>
         </div>

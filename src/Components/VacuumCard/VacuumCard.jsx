@@ -1,11 +1,15 @@
-import React from 'react'
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 function VacuumCard({
     vacuumName,
     vacuumImage,
     vacuumDescriptionFirst = "",
-    vacuumDescriptionSecond = ""
+    vacuumDescriptionSecond = "",
+    path
 }) {
+
+    const navigate = useNavigate();
     return (
 
         <div className='bg-gray-400 filter backdrop-blur-lg bg-opacity-5 h-fit w-fit  p-3 rounded-lg border border-white overflow-hidden  flex flex-col lg:flex-row  gap-5 shadow-md hover:bg-[#030f27]  hover:border-[#017BCC] transition-all ease-in duration-200'>
@@ -21,7 +25,7 @@ function VacuumCard({
                 </p>
                 <p className='hidden text-sm xl:block  '>{vacuumDescriptionSecond}
                 </p>
-                <button className='w-fit px-3 text-sm py-2 border-2 rounded-lg hover:scale-105 hover:shadow-md border-[#017BCC] hover:text-[#017BCC] transition-all ease-in duration-200'>See Full Product Details</button>
+                <button onClick={()=>(navigate(`${path}`))} className='w-fit px-3 text-sm py-2 border-2 rounded-lg hover:scale-105 hover:shadow-md border-[#017BCC] hover:text-[#017BCC] transition-all ease-in duration-200'>See Full Product Details</button>
 
             </div>
 
